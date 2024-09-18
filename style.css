@@ -1,0 +1,210 @@
+*,
+html
+{
+    margin: 0;
+}
+
+body
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-nav
+{
+    font-family: monospace, Lucida console;
+    font-size: 20px;
+}
+
+.ul-navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 4rem;
+    gap: 1rem;
+    background: rgb(58, 58, 58);
+}
+
+.navbar-li 
+{
+    display: flex;
+    justify-content: center;
+    color: #faf6f9;
+    text-decoration: none;
+}
+
+.navbar-li a
+{
+    text-decoration: none;
+    color: #faf6f9;
+    transition: .1s ease-in-out;
+}
+
+.navbar-li:hover
+{
+    background: rgb(29, 28, 28);
+    text-decoration: underline;
+    transition: .1s ease-in-out;
+    letter-spacing: 5px;
+}
+
+.content
+{
+    margin: 10px;
+    padding: 10px
+    flex: 1;
+    font-family: poppins;
+    /* min-height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.img-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.img-anya
+{
+    border-radius: 2rem;
+    gap: 1rem;
+    transition: .2s ease-in-out;
+}
+
+.img-anya:hover
+{
+    box-shadow: 5px 5px 4px #fab3ad;
+    transition: .2s ease-in-out;
+}
+
+.img-keqing
+{
+    border-radius: 2rem;
+    gap: 1rem;
+    transition: .2s ease-in-out;
+}
+
+.img-keqing:hover
+{
+    box-shadow: 7px 7px 4px #cfa1e6;
+}
+
+.text-page
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: overline;
+    transition: .3s ease-in-out;
+    background: #ffe4e1;
+    color: #4c4443;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 2px 2px 5px rgb(161, 156, 156);
+}
+
+.text-page:hover
+{
+    letter-spacing: 10px;
+    transition: .3s ease-in-out;
+    text-decoration: underline;
+}
+
+.foot
+{
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-in-out;
+    position: relative;
+}
+
+
+.fa-whatsapp
+{
+    transition: .3s ease-in-out;
+    color: #faf6f9;
+    background: #0ac041;
+    width: 4rem;
+    border-radius: 1rem;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 4px rgb(184, 179, 179);
+    transition: .3s ease-in-out;
+}
+
+.fa-whatsapp:hover
+{   
+    transition: .3s ease-in-out;
+    margin: 20px;
+    padding: 30px;
+    letter-spacing: 4px;
+    width: 5rem;
+}
+
+
+
+
+.fa-facebook
+{
+    transition: .3s ease-in-out;
+    color: #faf6f9;
+    background: #4267B2;
+    width: 4rem;
+    border-radius: 1rem;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 4px rgb(184, 179, 179);
+}
+
+
+.fa-facebook:hover
+{   
+    transition: .3s ease-in-out;
+    margin: 20px;
+    padding: 30px;
+    letter-spacing: 4px;
+    width: 5rem;
+}
+
+.fa-instagram
+{
+    background: #d62976;
+    width: 4rem;
+    border-radius: 1rem;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 4px rgb(184, 179, 179);
+    transition: .3s ease-in-out;
+}
+
+
+.fa-instagram:hover
+{   
+        transition: .3s ease-in-out;
+        margin: 20px;
+        padding: 30px;
+        letter-spacing: 4px;
+        width: 5rem;
+}
